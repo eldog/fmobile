@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout
+        style="@style/TitleBar">
+        <TextView
+            style="@style/TitleText"
+            android:text="@string/app_name"
+            android:layout_weight="1"/>
+        <ImageView
+            style="@style/TitleBarLogo"
+            android:src="@drawable/fface_logo"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <uk.me.eldog.fface.RectImageView
+        android:id="@+id/select_face_rect_image_view"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+    />
+</LinearLayout>

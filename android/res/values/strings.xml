@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fmobile</string>
+    <!-- FaceCaptureActivity -->
+    <string name="capture_face">Capture face</string>
+    <string name="ensure_data_file_exists">Loading initial data files</string>
+    <string name="load_face_detector">Loading face detector</string>
+    <string name="finding_faces">Finding faces</string>
+    <string name="cropping_face">Cropping face</string>
+    <string name="analyzing_attractiveness">Analysing attractiveness</string>
+    <string name="attractiveness_score">Attractiveness score</string>
+    <string name="out_of">/ 10.0</string>
+</resources>

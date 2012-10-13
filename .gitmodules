@@ -1,0 +1,7 @@
+[submodule "lib/cvconvnet"]
+	path = lib/cvconvnet
+	url = https://github.com/eldog/cvconvnet.git
+
+[submodule "lib/expat"]
+	path = lib/expat
+	url = https://github.com/android/platform_external_expat.git

@@ -1,0 +1,7 @@
+android/bin/
+android/gen/
+android/libs/
+android/obj/
+android/proguard*
+local.properties
+
