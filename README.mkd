@@ -1,0 +1,46 @@
+Fface
+=====
+
+Facial attractiveness prediction on Android.
+
+Or a forward propagation of a convolution neural network on Android.
+
+You will need to make sure you add the submodules, either clone the repo
+with --recursive
+
+    git clone --recursive <THIS REPO>
+
+or clone it normally and update the submodules
+
+    git clone <THIS REPO>
+    git submodule update
+
+Required libraries
+------------------
+
+Wasn't going to be easy was it.
+
+You will need Android OpenCV 2.3.1, at present (maybe/probably forever) it does
+not work with the newer versions.
+
+http://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.3.1/
+
+Also, currently it has your home directory as the location of OpenCV - not
+perfect.
+
+Building
+--------
+
+If you're in bash run
+    ./scripts/build.sh
+
+which will call the NDK (which is also assumed to be in the home directory).
+
+You might also want to get logdog.py
+
+    https://github.com/dj-foxxy/logdog.git
+
+Which requires libfoxxy
+
+    https://github.com/dj-foxxy/libfoxxy.git
+
